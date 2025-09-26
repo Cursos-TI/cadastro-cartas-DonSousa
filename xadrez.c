@@ -5,9 +5,7 @@ int main(){
     printf ("Novo commit\n")
     struct CartaSuperTrunfo carta 1, carta2;
     printf ("insira os dados da primeira carta:");
-    lerCarta(&carta1);
     printf("insira os dados da segunda carta:")
-    lerCarta(&carta2);
     printf("\n\nDados da primeira carta:\n");
     printf("Estado:%c\nCodigo:%s\nCidade:%s\nPopulacao:%d\n",carta1.estado, carta1.codigo, carta1.cidade, carta1.populacao);
     printf("\n\nDados da segunda carta:\n");
